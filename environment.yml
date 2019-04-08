@@ -1,4 +1,4 @@
-name: introduction-to-sql-for-data-science-python
+name: introduction-to-sql-for-data-science
 
 dependencies:
   - python=3.7.*
