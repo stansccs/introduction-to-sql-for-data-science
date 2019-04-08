@@ -19,6 +19,49 @@ The Visualization Core Lab will host an *Introduction to SQL for Data Science* w
 
 ## Installation Instructions
 
+If you have not already done so, install [Git](https://github.com/kaust-vislab/introduction-to-git-for-data-scientists#installation-instructions) and then clone the workhsop repository on your local machine by typing the following commands into a terminal (Mac OS or Linux) or Git Bash shell (Windows).
+
+```bash
+git clone https://github.com/kaust-vislab/introduction-to-sql-for-data-science.git
+```
+
+Installation instructions differ depending on whether you work primarily with Python or R (and thus will most likely use Python or R to interact with SQL databases in future work).
+
+### Python
+Check to see if you have the [Conda](https://docs.conda.io/en/latest/) package management system installed on your local machine by running the following command in a terminal.
+
+```bash
+$ which conda
+```
+
+If you are running Windows, then run the following command in a command prompt.
+
+```
+$ where conda
+```
+
+If Conda has not been installed on your machine, then install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) from Anaconda for your OS. Once you have installed Conda on your machine run the following commands in make sure that you have the most recent patches.
+
+```bash
+$ conda update -y conda
+$ conda init
+```
+
+Once Conda has been installed, then you can create and activate a software environment for the workshop by running the following commands in the terminal.
+
+```bash
+$ cd introduction-to-sql-for-data-science
+$ conda env create -f environment.yml
+$ conda activate introduction-to-sql-for-data-science
+```
+
+### R
+If you have not already done so, [install both R and RStudio]() and then use the following commands to install required dependencies for the workhop.
+
+```bash
+r install.R
+```
+
 ## Schedule Overview 
 
 The workshop will largely follow the [The Carpentries](https://carpentries.org/) [Databases and SQL lecture materials](http://swcarpentry.github.io/sql-novice-survey/).
