@@ -1,6 +1,6 @@
-# Introduction to SQL for Data Science
+# Introduction to SQL for Data Science (Spring 2019)
 
-The Visualization Core Lab will host an *Introduction to SQL for Data Science* workshop on **Thursday, 2 May 2019 Auditorium 0215 (between buildings 4 and 5)**. Visualization lab staff will provide an introduction to SQL for data science designed for learners with little or no previous experience with SQL programming. Topics covered will include the following.
+The Visualization Core Lab will host an *Introduction to SQL for Data Science* workshop on **Thursday, 2 May 2019 in Auditorium 0215 (between buildings 4 and 5)**. Visualization lab staff will provide an introduction to SQL for data science designed for learners with little or no previous experience with SQL programming. Topics covered will include the following.
 
 * Selecting data 
 * Sorting and removing duplicates
@@ -17,18 +17,41 @@ The Visualization Core Lab will host an *Introduction to SQL for Data Science* w
 
 **This is a live-coding based workshop and learners are expected to bring their own laptops with the required software already installed.**
 
+## Schedule Overview 
+
+The workshop will largely follow the [The Carpentries](https://carpentries.org/) [Databases and SQL lecture materials](http://swcarpentry.github.io/sql-novice-survey/).
+
+* Instructors will be available between 8:30-9:00 am to help with software setup.
+* Morning session (9:00 am -12:00 pm) with coffee break at 10:30 am.
+* Afternoon session (1:00 pm - 5:00 pm) with coffee break at 3:00 pm.
+
 ## Installation Instructions
 
-If you have not already done so, install [Git](https://github.com/kaust-vislab/introduction-to-git-for-data-scientists#installation-instructions) and then clone the workhsop repository on your local machine by typing the following commands into a terminal (Mac OS or Linux) or Git Bash shell (Windows).
+### Git
+
+Check whether or not you have [Git](https://git-scm.com/) installed on your local machine by running the following command in a terminal.
+
+```bash
+$ which git
+```
+
+If you are running Windows, then run the following command in a command prompt.
+
+```
+$ where git
+```
+
+If necessary install [Git](https://github.com/kaust-vislab/introduction-to-git-for-data-scientists#installation-instructions) and then [clone the workhsop repository](https://help.github.com/en/articles/cloning-a-repository) on your local machine. To clone this repository open a terminal (or Git Bash shell if you are running Windows), change the current working directory to the location where you want to create the clone of this repository and then run the following command in the terminal.
 
 ```bash
 git clone https://github.com/kaust-vislab/introduction-to-sql-for-data-science.git
 ```
 
-Installation instructions differ depending on whether you work primarily with Python or R (and thus will most likely use Python or R to interact with SQL databases in future work).
+Additional installation instructions differ depending on whether you work primarily with Python or R (and thus will most likely use Python or R to interact with SQL databases in your future work).
 
-### Python
-Check to see if you have the [Conda](https://docs.conda.io/en/latest/) package management system installed on your local machine by running the following command in a terminal.
+### Conda
+
+Check whether the [Conda](https://docs.conda.io/en/latest/) package management system is installed on your local machine by running the following command in a terminal.
 
 ```bash
 $ which conda
@@ -47,28 +70,27 @@ $ conda update -y conda
 $ conda init
 ```
 
-Once Conda has been installed, then you can create and activate a software environment for the workshop by running the following commands in the terminal.
+Once Conda has been installed, then you can create and activate the appropriate software environment for the workshop. Python users should run the following commands in the terminal.
 
 ```bash
 $ cd introduction-to-sql-for-data-science
-$ conda env create -f environment.yml
-$ conda activate introduction-to-sql-for-data-science
+$ conda env create -f python/environment.yml
+$ conda activate introduction-to-sql-for-data-science-python
 ```
 
-### R
-If you have not already done so, [install both R and RStudio]() and then use the following commands to install required dependencies for the workhop.
+R users, meanwhile, should run the following commands in the terminal.
 
 ```bash
-r install.R
+$ cd introduction-to-sql-for-data-science
+$ conda env create -f r/environment.yml
+$ conda activate introduction-to-sql-for-data-science-r
 ```
 
-## Schedule Overview 
+When you are donw with this workshop you can deactivate the Conda environment by running the following in ther terminal.
 
-The workshop will largely follow the [The Carpentries](https://carpentries.org/) [Databases and SQL lecture materials](http://swcarpentry.github.io/sql-novice-survey/).
-
-* Instructors will be available between 8:30-9:00 am to help with software setup.
-* Morning session (9:00 am -12:00 pm) with coffee break at 10:30 am.
-* Afternoon session (1:00 pm - 5:00 pm) with coffee break at 3:00 pm.
+```bash
+$ conda deactivate
+```
 
 ## Additional SQL Training Resources
 
