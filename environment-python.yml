@@ -1,0 +1,9 @@
+name: introduction-to-sql-for-data-science-python
+
+dependencies:
+  - python=3.7.*
+  - pandas=0.24.*
+  - sqlalchemy=1.3.*
+  - psycopg2=2.7.*
+  - postgresql=11.2
+

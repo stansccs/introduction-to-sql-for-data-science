@@ -1,0 +1,6 @@
+name: introduction-to-sql-for-data-science-r
+
+dependencies:
+  - r-base=3.5.*
+  - r-essentials=3.5.*
+
