@@ -5,7 +5,7 @@ channels:
   - defaults
 
 dependencies:
-  - mro-base=3.5.*
+  - r-base=3.5.*
   - r-essentials=3.5.*
   - r-rsqlite=2.1.*
   - rstudio=1.1.*
