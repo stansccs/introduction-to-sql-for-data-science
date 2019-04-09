@@ -47,8 +47,6 @@ If necessary install [Git](https://github.com/kaust-vislab/introduction-to-git-f
 git clone https://github.com/kaust-vislab/introduction-to-sql-for-data-science.git
 ```
 
-Additional installation instructions differ depending on whether you work primarily with Python or R (and thus will most likely use Python or R to interact with SQL databases in your future work).
-
 ### Conda
 
 Check whether the [Conda](https://docs.conda.io/en/latest/) package management system is installed on your local machine by running the following command in a terminal.
@@ -86,7 +84,7 @@ $ conda env create -f r/environment.yml
 $ conda activate introduction-to-sql-for-data-science-r
 ```
 
-When you are donw with this workshop you can deactivate the Conda environment by running the following in ther terminal.
+When you are done with this workshop you can deactivate the Conda environment by running the following in ther terminal.
 
 ```bash
 $ conda deactivate
