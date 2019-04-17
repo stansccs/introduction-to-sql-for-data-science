@@ -94,6 +94,15 @@ $ conda deactivate
 
 Assorted links to additional resources for SQL training.
 
+### Code Academy
+* [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+
+### Udacity
+* [SQL for Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
+
+### O'Reilly
+* [PostgreSQL: Up and Running (3rd edition)](http://shop.oreilly.com/product/0636920052715.do) [(Full Text Online)](https://www.safaribooksonline.com/library/view/postgresql-up-and/9781449373184/?ar&orpq)
+
 ### Core Data Science tools
 
 In addition to knowledge of SQL, an aspiring data scientist you should seek to develop proficiency in the following areas:
