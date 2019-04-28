@@ -27,9 +27,24 @@ The workshop will largely follow the [The Carpentries](https://carpentries.org/)
 
 ## Installation Instructions
 
-### Git
+SQLite is included as part of the standard Python library so as long as you have Python installed on your machine you should be able to complete most all of the workshop without any further installation.
 
-Check whether or not you have [Git](https://git-scm.com/) installed on your local machine by running the following command in a terminal.
+Check whether or not you have [SQLite](https://www.sqlite.org/index.html) installed on your local machine by running the following command in a terminal.
+
+```bash
+$ which sqlite3
+```
+
+If you are running Windows, then run the following command in a command prompt.
+
+```
+$ where sqlite3
+```
+
+### Git
+In order to clone the workshop repository containing the database file and additional materials you will need to install Git.
+
+You can check whether or not you have [Git](https://git-scm.com/) already installed on your local machine by running the following command in a terminal.
 
 ```bash
 $ which git
@@ -48,8 +63,9 @@ git clone https://github.com/kaust-vislab/introduction-to-sql-for-data-science.g
 ```
 
 ### Conda
+In order to build the software environments for using SQL databases from Python and/or R you will need to have the [Conda](https://docs.conda.io/en/latest/) package management system installed on your machine.
 
-Check whether the [Conda](https://docs.conda.io/en/latest/) package management system is installed on your local machine by running the following command in a terminal.
+To check whether the Conda is installed on your local machine by running the following command in a terminal.
 
 ```bash
 $ which conda
