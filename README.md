@@ -1,3 +1,5 @@
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/kaust-vislab/introduction-to-sql-for-data-science/spring-2019?grs=github)
+
 # Introduction to SQL for Data Science (Spring 2019)
 
 The Visualization Core Lab will host an *Introduction to SQL for Data Science* workshop on **Thursday, 2 May 2019 in Auditorium 0215 (between buildings 4 and 5)**. Visualization lab staff will provide an introduction to SQL for data science designed for learners with little or no previous experience with SQL programming. Topics covered will include the following.
